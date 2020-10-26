@@ -1,9 +1,11 @@
 # ASAP_infrastructure
 This repository contains simulator infrastructure for Prefetched address translation (ASAP) paper. 
 
-Currently, it consists of two components: 
+### This repository structure:
+* `simulations/trace_generator` trace generator
+* `simulations/native/simulator` simulator for the native scenario
 
-1. Trace generator
-2. Simulator for native case 
+There is no simulator for virtualized scenario yet (work in progress). 
 
-There is no simulator for virtualized scenario yet (work in progress). The simulator outputs a file containing a histogram of page walk trajectories where a trajectory shows from where in the memory hierarchy each page node was fetched. 
+### Installation and use
+```git clone --recurse-submodules git@github.com:amargaritov/ASAP_infrastructure.git```
