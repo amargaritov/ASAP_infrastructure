@@ -1,0 +1,6 @@
+[submodule "simulator_nat"]
+	path = simulation/native/simulator
+	url = git@github.com:amargaritov/dynamorio.git
+[submodule "trace_generator"]
+	path = simulation/trace_generator
+	url = git@github.com:amargaritov/dynamorio.git
